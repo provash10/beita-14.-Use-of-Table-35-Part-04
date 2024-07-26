@@ -1,0 +1,33 @@
+table{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: blue;
+    /* border-collapse: collapse;
+    border: 3px solid red; */
+}
+/* .table_left{text-align: left;} */
+
+
+/* ##shortcut css all border */
+table, th, td{
+    border-collapse: collapse;
+    border: 3px solid red;
+}
+
+.tr3{
+    background-color: aqua;
+    color: red;
+}
+.tr4td4{
+    background-color: aqua;
+    color: blue;
+}
+table caption {
+    background-color: blue;
+}
+
+/* Or 
+caption {
+    background-color: blue;
+} */

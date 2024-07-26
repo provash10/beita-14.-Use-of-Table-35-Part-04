@@ -1,0 +1,71 @@
+<!-- 14. Use of Table 35 Part-04 -->
+
+<link href="css/style.css" rel="stylesheet"/>
+
+ <table  border="2" cellpadding="5">
+        <caption><strong>Order List</strong></caption> <br>
+        <tr>
+            <th>ID </th>
+            <th>Tutorial Name </th>
+            <th> Price </th>
+        </tr>
+        <tr>
+            <td> 1</td>
+            <td>SEO </td>
+            <td> 1500</td>
+        </tr>
+        <tr>
+            <td> 2</td>
+            <td>Web Design </td>
+            <td> 2000</td>
+        </tr>
+        <tr class="tr3" >
+            <td> 3</td>
+            <td>Graphic Design </td>
+            <td>2500 </td>
+        </tr>
+        <tr>
+            <td> 4</td>
+            <td>Wordpress </td>
+            <td class="tr4td4" >3000 </td>
+        </tr>
+        <tr>
+            <td colspan="2">Total </td>
+            <td colspan="1">9000 tk </td>
+        </tr>
+    </table>
+    ===========================
+
+    table{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: blue;
+    /* border-collapse: collapse;
+    border: 3px solid red; */
+}
+/* .table_left{text-align: left;} */
+
+
+/* ##shortcut css all border */
+table, th, td{
+    border-collapse: collapse;
+    border: 3px solid red;
+}
+
+.tr3{
+    background-color: aqua;
+    color: red;
+}
+.tr4td4{
+    background-color: aqua;
+    color: blue;
+}
+table caption {
+    background-color: blue;
+}
+
+/* Or 
+caption {
+    background-color: blue;
+} */
